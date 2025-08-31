@@ -1,0 +1,36 @@
+# Obecné
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# STM32CubeIDE (Eclipse-based)
+.settings/
+.metadata/
+Debug/
+Release/
+*.launch
+*.log
+*.bak
+*.swp
+
+# Build výstupy (ELF, binárky, mapy)
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Arduino
+*.hex
+*.elf
+
+# Python (pro případné utility skripty)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
